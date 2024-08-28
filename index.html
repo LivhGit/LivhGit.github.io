@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lirix的收藏夹</title>
+    <style>
+        .jzxz {
+            user-select: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4B0082, #6A5ACD);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            overflow-y: scroll; /* 开启垂直滚动 */
+            scrollbar-width: thin; /* Firefox */
+            scrollbar-color: transparent transparent; /* Firefox */
+        }
+
+        /* 隐藏默认滚动条，包括所有浏览器 */
+        body::-webkit-scrollbar {
+            width: 5px; /* 滚动条宽度 */
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: transparent; /* 滚动条颜色 */
+        }
+
+        body::-webkit-scrollbar-track {
+            background: transparent; /* 滚动条背景 */
+        }
+
+        h1, h3, h5 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        details {
+            margin: 20px auto;
+            padding: 20px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: background 0.2s; /* 添加过渡效果 */
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        summary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05); /* 鼠标悬浮时放大 */
+        }
+
+        details[open] {
+            background: rgba(255, 255, 255, 0.2); /* 展开时的背景色 */
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            margin: 10px auto;
+            text-decoration: none;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            color: #333;
+            transform: scale(1.05); /* 鼠标悬浮时放大 */
+        }
+
+        a span {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <h1><em>Lirix的收藏夹</em></h1>
+    <h2>电脑浏览器的收藏夹，以便电脑不在身边时使用。</h2>
+    <h3>
+              自己给自己做的网页，<strike style="text-decoration: line-through; text-decoration-color: black;">不在乎外观</strike>
+    </h3>
+    <details class="jzxz">
+        <summary>小小收藏夹</summary>
+        <div>
+            <details>
+                <summary>网页托管服务</summary>
+                <p><a href="https://account.retiehe.com/">热铁盒托管</a></p>
+                <p><a href="https://aws.amazon.com/cn/dynamodb/?did=ft_card&trk=ft_card">亚马逊托管</a></p>
+            </details>
+            <details>
+                <summary>资源网</summary>
+                <p><a href="http://github.com/">GitHub</a></p>
+                <p><a href="https://www.yhcres.top/">萤火虫刷机资源</a></p>
+                <p><a href="http://pan.wflaaa.shop/">Lucky的网盘</a></p>
+                <p><a href="https://greasyfork.org/zh-CN/">GreasyFork脚本下载</a></p>
+                <p><a href="https://www.bmcx.com/">便民查询网</a></p>
+                <p><a href="https://www.znds.com/">电视论坛网</a></p>
+                <p><a href="http://www.dzkbw.com/">电子课本网</a></p>
+                <p><a href="https://html5up.net/">HTML5UP</a></p>
+                <p><a href="https://www.allhistory.com/">全历史</a></p>
+                <p><a href="https://www.oschina.net">OSCHINA</a></p>
+            </details>
+            <details>
+                <summary>导航网</summary>
+                <p><a href="https://ywyj.cn/">一网一匠</a></p>
+                <p><a href="https://www.8kmm.com/">8千导航网</a></p>
+            </details>
+            <details>
+                <summary>工具</summary>
+                <p><a href="https://zaiwen.top/">在问</a></p>
+                <p><a href="https://www.onlinegdb.com/">在线代码编辑器</a></p>
+                <p><a href="https://coco.codemao.cn/editor/?utm_source=xinquji">COCO软件制作</a></p>
+                <p><a href="https://gwssq.com/">官网搜索器</a></p>
+                <p><a href="https://metaso.cn/">秘塔搜索</a></p>
+                <p><a href="https://web.blockbench.net/">MC建模</a></p>
+                <p><a href="https://mc-map.djfun.de/">MC地图制作</a></p>
+            </details>
+            <details>
+                <summary>游戏</summary>
+                <p><a href="https://ws.imc.re/eaglerx/">IMC</a></p>
+                <p><a href="https://conwaylife.com/">生命游戏</a></p>
+                <p><a href="https://more-games.xyz/games/subway-surfer-zurich-2023/">地铁跑酷</a></p>
+                <p><a href="https://pvz.heheda.top/">植物大战僵尸</a></p>
+                <p><a href="https://www.crazygames.com/">CrazyGames</a></p>
+            </details>
+            <p>---------------------------------------------------分割线---------------------------------------------------</p>
+            <p><a href="https://www.openharmony.cn/">OpenHarmony</a></p>
+            <p><a href="https://console.openfrp.net/dashboard">OpenFrp</a></p>
+            <p><a href="https://typing.xiaomawang.com/">小指王指法练习</a></p>
+            <p><a href="https://fakeupdate.net/">更新界面</a></p>
+        </div>
+    </details>
+    <details class="jzxz">
+        <summary>Lirix的网站</summary>
+        <div>
+            <p><a href="http://link.free.nf/">个人主页</a></p>
+            <p><a href="https://mc.lirix.us.kg">团队主页</a></p>
+            <p><a href="https://link3.cc/lirix">Lirix资源网</a></p>
+            <p><a href="https://mc.lirix.us.kg/MC/">MC/LX</a></p>
+            <p><a href="https://imc.lirix.us.kg/blog/">团队博客(暂时有问题)</a></p>
+            <p><a href="https://imc.lirix.us.kg/index.html">备用博客</a></p>
+            <p><a href="https://imc.lirix.us.kg/talk/">简聊</a></p>
+            <p><a href="https://imc.lirix.us.kg/lt/">LIRIX论坛</a></p>
+            <p><a href="https://imc.lirix.us.kg/index.php">聊天网站(有APP)</a></p>
+            <p><a href="https://imc.lirix.us.kg/MC/">桃花源</a></p>
+            <p><a href="http://e989e41f.pro.probb.top/">旧版博客(已弃用)</a></p>
+            <p><a href="https://mc.lirix.us.kg/zanz.html">赞助我们</a></p>
+        </div>
+    </details>
+<footer>
+   <p><small>Lirix版权所有</small></p>
+</body>
+</html>
